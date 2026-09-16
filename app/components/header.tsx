@@ -1,7 +1,7 @@
 export default function Header() {
   return (
-    <div className="flex flex-row justify-between w-full h-60 top-0 p-7 items-center text-white">
-      <div className="w-[70%] h-full flex flex-row gap-8 items-center">
+    <div className="flex flex-row justify-between w-full h-60 top-0 items-center text-white p-7 gap-10">
+      <div className="w-[70%] h-full flex flex-row gap-6 items-center">
         <div className="w-40 h-40 border-white border rounded-lg shrink-0">
           <img
             src="chunk.png"
@@ -17,7 +17,7 @@ export default function Header() {
           </h2>
         </div>
       </div>
-      <div className="h-full w-[30%] flex flex-col justify-center pl-10">
+      <div className="h-full w-[30%] flex flex-col justify-center">
         <div className="flex flex-col w-full h-40 justify-center gap-2">
           <div className="flex flex-row gap-2 items-center h-10">
             <h1 className="font-light text-2xl">Years</h1>
@@ -26,9 +26,12 @@ export default function Header() {
             </div>
           </div>
           <div className="flex flex-row h-10 gap-1 w-full">
-            <button className="rounded-md w-full h-full bg-[#0d0c1d] hover:cursor-pointer hover:bg-[#161b33] transition-all duration-100 flex flex-row items-center justify-center gap-1">
+            <button
+              className="rounded-md w-full h-full bg-[#0d0c1d] hover:cursor-pointer hover:bg-[#161b33] transition-all duration-100 
+            flex flex-row items-center justify-center gap-1"
+            >
               <svg
-                className="w-6 h-6hite"
+                className="w-6 h-6"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -42,7 +45,10 @@ export default function Header() {
 
               <h1>Contact</h1>
             </button>
-            <button className="rounded-md w-full h-full bg-[#0d0c1d] hover:cursor-pointer hover:bg-[#161b33] transition-all duration-100 flex flex-row items-center justify-center gap-1">
+            <button
+              className="rounded-md w-full h-full bg-[#0d0c1d] hover:cursor-pointer hover:bg-[#161b33] transition-all duration-100 
+            flex flex-row items-center justify-center gap-1"
+            >
               <svg
                 className="w-6 h-6"
                 aria-hidden="true"
