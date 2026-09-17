@@ -1,6 +1,6 @@
 export default function RightPanel() {
   return (
-    <div className="w-full flex flex-col bg-[#161b33]/40 p-4 rounded-sm lg:gap-8">
+    <div className="w-full flex flex-col bg-[#161b33]/40 p-4 rounded-sm lg:gap-8 text-white">
       <div className="w-full h-10 text-xl text-blue-300 font-extralight">
         Available For Work
       </div>

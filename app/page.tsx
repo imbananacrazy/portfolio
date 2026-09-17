@@ -19,7 +19,7 @@ f1dac4
 
 export default function Page() {
   return (
-    <div className="w-screen h-screen flex items-center justify-center">
+    <div className="w-screen h-screen flex items-center justify-center text-white">
       <img src="background.gif" className="w-full h-full fixed object-cover" />
       <div
         className="lg:w-[55%] sm:w-full overflow-y-scroll h-full bg-linear-to-br sm:gap-35 sm:flex sm:flex-col lg:gap-0 from-[#0d0c1d]/90 to-[#161b33]/30 z-1 

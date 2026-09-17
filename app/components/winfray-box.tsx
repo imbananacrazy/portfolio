@@ -1,6 +1,6 @@
 export default function WinfrayBox() {
   return (
-    <div className="w-full h-full flex flex-col">
+    <div className="w-full h-full flex flex-col text-white">
       <div className="w-full min-h-10 bg-linear-to-r from-[#474973]/30 to-[#0d0c1d]/70 flex items-center p-2 rounded-t-sm">
         <h1>Project 6</h1>
       </div>
