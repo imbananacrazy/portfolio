@@ -36,6 +36,10 @@ export default function RightPanel() {
             Next.js
           </div>
           <div className="min-h-10 min-w-10 rounded-lg bg-[#0d0c1d] flex items-center justify-center shrink-0 p-2 gap-1">
+            <img src="typescript.svg" className="h-7 w-7" />
+            Typescript
+          </div>
+          <div className="min-h-10 min-w-10 rounded-lg bg-[#0d0c1d] flex items-center justify-center shrink-0 p-2 gap-1">
             <img src="java.svg" className="h-7 w-7" />
             Java
           </div>
