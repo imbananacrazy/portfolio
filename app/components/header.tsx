@@ -1,34 +1,43 @@
 export default function Header() {
   return (
-    <div className="flex flex-row justify-between w-full h-60 top-0 items-center text-white p-7 gap-10">
-      <div className="w-[70%] h-full flex flex-row gap-6 items-center">
-        <div className="w-40 h-40 border-white border rounded-lg shrink-0">
-          <img
-            src="chunk.png"
-            className="w-full h-full object-cover rounded-lg"
-          />
+    <div className="flex lg:flex-row sm:flex-col justify-between w-full h-60 top-0 items-center text-white p-7 gap-10">
+      <div className="lg:w-[70%] sm:w-full flex lg:flex-row sm:flex-col gap-6 items-center">
+        <div className="sm:flex-row">
+          <div className="lg:w-40 lg:h-40 sm:h-20 sm:w-20 border-[#a69cac] border rounded-lg shrink-0">
+            <img
+              src="pic1.jpg"
+              className="w-full h-full object-cover rounded-lg"
+            />
+          </div>
         </div>
-        <div className="flex flex-col w-full h-40 justify-center">
-          <h1 className="text-3xl h-10 font-semibold">Raf Carriere</h1>
-          <h2 className="font-light h-10">Calgary, Alberta, Canada</h2>
-          <h2 className="break-normal h-10 text-sm">
+        <div className="flex flex-col w-full lg:h-40 justify-center">
+          <h1 className="lg:text-3xl sm:text-lg lg:h-10 font-semibold">
+            Raf Carrière
+          </h1>
+          <h2 className="sm:text-xs lg:text-lg font-light lg:h-10 text-[#a69cac]">
+            Calgary, Alberta, Canada
+          </h2>
+          <h2 className="break-normal lg:h-10 sm:pt-3 text-sm">
             A SAIT Software Development student with a passion for game, web,
             and mobile app creation.
           </h2>
         </div>
       </div>
-      <div className="h-full w-[30%] flex flex-col justify-center">
-        <div className="flex flex-col w-full h-40 justify-center gap-2">
+      <div className="lg:w-[30%] sm:w-full flex flex-col justify-center">
+        <div className="flex flex-col w-full lg:h-40 justify-center gap-2">
           <div className="flex flex-row gap-2 items-center h-10">
-            <h1 className="font-light text-2xl">Years</h1>
-            <div className="border-red-400 border-2 rounded-full h-8 w-8 flex items-center justify-center">
-              6
+            <h1 className="font-light text-2xl h-full">Years</h1>
+            <div className="flex items-center justify-center h-full pb-2">
+              <div className="border-red-400 border-2 rounded-full h-8 w-8 flex items-center justify-center">
+                6
+              </div>
             </div>
           </div>
           <div className="flex flex-row h-10 gap-1 w-full">
-            <button
+            <a
               className="rounded-md w-full h-full bg-[#0d0c1d] hover:cursor-pointer hover:bg-[#161b33] transition-all duration-100 
             flex flex-row items-center justify-center gap-1"
+              href="mailto:raphc19@outlook.com"
             >
               <svg
                 className="w-6 h-6"
@@ -44,10 +53,11 @@ export default function Header() {
               </svg>
 
               <h1>Contact</h1>
-            </button>
-            <button
+            </a>
+            <a
               className="rounded-md w-full h-full bg-[#0d0c1d] hover:cursor-pointer hover:bg-[#161b33] transition-all duration-100 
             flex flex-row items-center justify-center gap-1"
+              href="https://github.com/imbananacrazy"
             >
               <svg
                 className="w-6 h-6"
@@ -65,7 +75,7 @@ export default function Header() {
                 />
               </svg>
               GitHub
-            </button>
+            </a>
           </div>
           <br className="h-10" />
         </div>
